@@ -30,7 +30,6 @@ main img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-
 }
 
 p {
@@ -38,7 +37,7 @@ p {
 }
 
 main {
-    max-width: 600px;
+    max-width: 840px;
 }
 
 aside {
