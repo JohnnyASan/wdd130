@@ -36,6 +36,7 @@ header {
 }
 
 nav {
+    justify-self: center;
     font-family: var(--paragraph-font);
     display: flex;
 }
