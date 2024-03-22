@@ -69,7 +69,9 @@ a {
 }
 
 .hero {
+    display: flex;
     position: relative;
+    justify-content: center;
 }
 
 .hero img {
@@ -88,7 +90,6 @@ a {
     background-color: hsla(189, 29%, 55%, 0.5);
     width: 90%;
     margin-top: 5rem;
-    margin-left: 2rem; 
     padding: .5rem;
 }
 
