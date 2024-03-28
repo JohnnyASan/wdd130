@@ -1,0 +1,43 @@
+* {
+    padding: 5px;
+    margin: 6px;
+}
+main {
+    background-color: rgb(216, 204, 204);
+}
+
+h1 {
+    text-align: center;
+    color: navy;
+}
+
+form {
+    display: grid;
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid #000;
+    border-radius: 0.5rem;
+    background-color: #f5f3f3;
+}
+
+label {
+    display: grid;
+}
+
+img {
+    justify-self: center;
+}
+
+button[type="submit"] {
+    background-color: navy;
+    color: white;
+    font-size: large;
+    border: none;
+    border-radius: 0.5em;
+}
+
+button[type="submit"]:hover {
+    background-color: rgba(0, 0, 128, 0.726);
+
+}
