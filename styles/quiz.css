@@ -2,9 +2,6 @@
     padding: 5px;
     margin: 6px;
 }
-main {
-    background-color: rgb(216, 204, 204);
-}
 
 h1 {
     text-align: center;
@@ -48,4 +45,13 @@ button[type="submit"] {
 button[type="submit"]:hover {
     background-color: rgba(0, 0, 128, 0.726);
 
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
 }
