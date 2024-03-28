@@ -25,6 +25,10 @@ label {
     display: grid;
 }
 
+input {
+    height: 20px;
+}
+
 textarea {
     max-width: 600px;
 }
