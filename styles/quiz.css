@@ -20,10 +20,15 @@ form {
 
 label {
     display: grid;
+    font-size: large;
 }
 
 input {
     height: 20px;
+}
+
+select, textarea, input {
+    font-size: large;
 }
 
 textarea {
