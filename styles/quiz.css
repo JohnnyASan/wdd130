@@ -25,6 +25,10 @@ label {
     display: grid;
 }
 
+textarea {
+    max-width: 600px;
+}
+
 img {
     justify-self: center;
 }
