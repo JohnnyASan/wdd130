@@ -213,6 +213,7 @@ footer img {
 }
 
 .contact-main > p {
+    text-align: center;
     grid-column: 2/3;
     grid-row: 2/3;
 }
