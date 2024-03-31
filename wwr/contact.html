@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Oarfish Adventures - Contact Us</title>
+        <meta name="author" content="Johnny Sanabria">
+        <meta name="description" content="Contact Us page for the Oarfish Adventures company">
+        <link rel="stylesheet" href="styles/rafting.css">
+    </head>
+    <body>
+        <header>
+            <img class="main-logo" alt="Oarfish Logo" src="images/oarfish_adventures_logo.webp">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="trips.html">Trips</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </header>
+        <main class="contact-main">
+            <h1>Contact Us</h1>
+            
+            <form>
+                <h2>Send us a message</h2>
+                <div class="form-contact">
+                    <label for="name">Full Name</label>
+                    <input type="text"><br>
+                    <label for="email">Email</label>
+                    <input type="email"><br>
+                </div>
+                
+                <!-- Radio Button group -->
+                <div class="form-radio">
+                    <p>What is the purpose of this message?</p>
+                    <input type="radio" id="general" name="purpose" value="General Inquiry">
+                    <label for="general">General Inquiry</label><br>
+                    <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                    <label for="reservation">Reservation Question</label><br>
+                    <input type="radio" id="website" name="purpose" value="Website Suggestion">
+                    <label for="website">Website Suggestion</label><br>
+                </div>
+                
+
+                <textarea name="message" id="message" cols="30" rows="10">Type your message...</textarea><br>
+                
+                <div class="form-subscribe">
+                    <input type="checkbox" id="subscribe" name="subscribe" value="Subscribe">
+                    <label for="subscribe">Subscribe to monthly newsletter</label><br>    
+                </div>
+                
+                <button type="submit">Submit</button>
+            </form>
+
+            <div class="contact-info">
+                <div class="company-contact">
+                    <p>EMAIL HERE</p>
+                    <p>PHONE HERE</p>
+                    <p>ADDRESS HERE</p>
+                </div>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d28742.530141683055!2d-111.8868651495993!3d40.779917819714775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1711854577930!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                
+                
+            </div>
+        </main>
+        <footer>
+            <p>&copy;2024 | Oarfish Adventures | Johnny Sanabria</p>
+            <div class="social-media">
+                <a href="https://youtube.com"><img src="images/icons8-youtube-48.png" alt="youtube logo"></a>
+                <a href="https://facebook.com"><img src="images/icons8-facebook-48.png" alt="facebook logo"></a>
+                <a href="https://instagram.com"><img src="images/icons8-instagram-48.png" alt="instagram logo"></a>
+            </div>
+        </footer>
+    </body>
+</html>
