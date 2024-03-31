@@ -283,4 +283,5 @@ iframe {
     grid-column: 2/3;
     max-width: 200px;
     max-height: 200px;
+    border: 0;
 }
