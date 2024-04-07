@@ -328,13 +328,15 @@ iframe {
 
   .trips {
     display: grid;
-    grid-template-rows: 1fr 3fr 6fr 6fr;
+    grid-template-rows: 1fr 3fr 5fr 6fr;
     margin: 20px;
   }
 
   .trips h1 {
-    justify-self: center;
+    justify-self: stretch;
     align-self: center;
+    background-color: var(--accent3-color);
+    text-align: center;
   }
 
   .book-now {
@@ -342,8 +344,8 @@ iframe {
     align-items: center;
     flex-direction: column;
     margin: 15px;
-    padding-bottom: 25px;
     border-bottom: 2px var(--accent1-color) solid;
+    text-align: center;
   }
 
   .book-button {
@@ -366,6 +368,7 @@ iframe {
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     padding: 5px;
+    background-color: var(--accent3-color);
   }
 
   .trip-photos figure {
@@ -387,6 +390,8 @@ iframe {
     grid-row: 4/5;
     border-collapse: collapse;
     border: 2px solid var(--accent1-color);
+    border-collapse: collapse;
+    width: 100%;
   }
 
   .trip-table caption {
@@ -394,8 +399,20 @@ iframe {
     font-family: var(--heading-font);
   }
   
-  th,
-  td {
-    padding: 5px;
-    border: 1px solid black;
+  .trip-table td, .trip-table th {
+    border: 1px solid var(--accent2-color);
+    padding: 8px;
+  }
+  
+  .trip-table tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .trip-table tr:hover {background-color: #ddd;}
+  
+  .trip-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: var(--accent1-color);
+    color: white;
+    font-family: var(--paragraph-font);
   }
