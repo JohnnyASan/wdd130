@@ -399,7 +399,7 @@ iframe {
     font-family: var(--heading-font);
   }
   
-  .trip-table td, .trip-table th {
+  .trip-table td {
     border: 1px solid var(--accent2-color);
     padding: 8px;
   }
@@ -409,6 +409,8 @@ iframe {
   .trip-table tr:hover {background-color: #ddd;}
   
   .trip-table th {
+    border: 1px solid var(--accent2-color);
+    padding: 8px;
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
