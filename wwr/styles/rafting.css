@@ -425,6 +425,55 @@ iframe {
 #home-hero-text {
     position: absolute;
     text-align: center;
-    top: 50%;
+    top: 45%;
     background-color: transparent !important;
+}
+
+.home-call-to-action {
+    display: flex;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    /* border-bottom: 2px solid var(--accent1-color); */
+    background-color: #ee6d4d34;
+}
+
+.newsletter-form {
+    margin-right: 10px;
+}
+
+.newsletter-form label {
+    margin-top: 5px;
+}
+
+.trips-link {
+    text-align: center;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trips-link button {
+    margin-top: 10px;
+    width: 100%;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.6); 
+}
+
+.trips-link button:active {
+    box-shadow: 0 0 0 white;
+    margin: 6px 10px 2px 10px;
+}
+
+a:visited {
+    color: inherit;
+}
+
+.trips-link h2 {
+    margin-bottom: 20px;
+}
+
+.general-info {
+    display: grid;
 }
